@@ -103,7 +103,7 @@
 ?>
                 <div class="filter-by" style="float: left; padding-left: 10px;">
                     <?php 
-                        $entity_type_id = 4;
+                        $entity_type_id =Mage::getModel('catalog/product')->getResource()->getTypeId();
                         $attributes = Mage::getResourceModel('eav/entity_attribute_collection')->setEntityTypeFilter($entity_type_id)->addFieldToFilter("backend_type",array("eq"=>'int'))->addFieldToFilter("frontend_input",array("eq"=>'select'))->addFieldToFilter("used_for_filter_by",array("eq"=>'1'));
                     ?>
                     <table><tr><td>
