@@ -3,7 +3,7 @@
 <config>
     <modules>
         <Biztech_Customtoolbar>
-            <version>0.1.2</version>
+            <version>0.1.3</version>
         </Biztech_Customtoolbar>
     </modules>
     <frontend>
@@ -24,17 +24,18 @@
             </updates>
         </layout>
     </frontend>
-    <admin>
+     <admin>
         <routers>
-			<customtoolbar>
-				<use>admin</use>
-				<args>
-					<module>Biztech_Customtoolbar</module>
-					<frontName>customtoolbar</frontName>
-				</args>
-			</customtoolbar>
+            <adminhtml>
+                    <args>
+                    <modules>
+                        <customtoolbar after="Mage_Adminhtml">Biztech_Customtoolbar_Adminhtml</customtoolbar>
+                        </modules>
+                    </args>
+                </adminhtml>    
         </routers>
     </admin>
+
     <adminhtml>
 		<acl>
 			<resources>
