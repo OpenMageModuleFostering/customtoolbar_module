@@ -113,7 +113,7 @@
                                     <option value="select"><?php echo $this->__('Please Select') ?></option>
                                     <?php foreach($attributes as $attribute): ?>
                                         <option value="<?php echo $attribute->getAttributeCode(); ?>">
-                                            <?php echo $attribute->getAttributeCode() ?>
+                                            <?php echo $attribute->getFrontendLabel() ?>
                                         </option>
                                         <?php endforeach; ?>
                                 </select></td>
@@ -166,7 +166,7 @@
                                     var baseURL = cur_cat_url + "?" + cur_att +"=" + response[i]['value'];
                                     <?php } else { ?>
                                     //var baseURL = cur_url.substring(0, cur_url.indexOf('/', 14))+ "/index.php/catalogsearch/result/?q=" + response[i]['lable'];
-                                    var baseURL =  '<?php  echo Mage::getBaseUrl() ?>' + "catalogsearch/result/?q=" + response[i]['lable'];
+                                    var baseURL =  '<?php  echo Mage::getBaseUrl() ?>' + "catalogsearch/advanced/result/?"+item+"[]=" + response[i]['value'];
                                     <?php } ?>
                                 html+= '<option value="'+baseURL+'">';
                                 html+= response[i]['lable'];

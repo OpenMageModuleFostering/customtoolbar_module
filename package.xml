@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
     <name>customtoolbar_module</name>
-    <version>0.1.0</version>
+    <version>0.1.1</version>
     <stability>stable</stability>
     <license uri="http://opensource.org/licenses/osl-3.0.php">OSL v3.0</license>
     <channel>community</channel>
@@ -16,11 +16,11 @@ Advantages&#xD;
 &#x2022;	The custom Toolbar module allows your customers to get quick access to regularly used product with specific characteristics.&#xD;
 &#x2022;	The extension consists of friendly user interface making it easier to use. It can be installed quickly and with ease. &#xD;
 </description>
-    <notes>-New Release</notes>
+    <notes>-Search enhancement</notes>
     <authors><author><name>Biztech</name><user>biztechcon</user><email>sales@biztechconsultancy.com</email></author></authors>
-    <date>2013-07-01</date>
-    <time>12:17:04</time>
-    <contents><target name="mageetc"><dir name="modules"><file name="Biztech_Customtoolbar.xml" hash="6cd053117e062b8334759941b84c7806"/></dir></target><target name="magelocal"><dir name="Biztech"><dir name="Customtoolbar"><dir name="Block"><dir name="Catalog"><dir name="Product"><dir name="Attribute"><dir name="Edit"><dir name="Tab"><file name="Main.php" hash="46b5eac785f0f40e551b8a43eb71f4ed"/></dir></dir></dir></dir></dir></dir><dir name="Helper"><file name="Data.php" hash="82893973976fdab398b0d061e8426390"/></dir><dir name="controllers"><file name="IndexController.php" hash="19b0c174b4ee577fa83122e20da6ac79"/></dir><dir name="etc"><file name="config.xml" hash="86e9f7045261bacd5c6f4a2cf80ada9a"/><file name="system.xml" hash="3ccc36394334e30115890a5edffba211"/></dir><dir name="sql"><dir name="customtoolbar_setup"><file name="mysql4-install-0.1.0.php" hash="127973676228a67a8600437da0d08866"/></dir></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="default"><dir name="default"><dir name="layout"><file name="customtoolbar.xml" hash="33b5081676020676c9e374f54a6da200"/></dir><dir name="template"><dir name="customtoolbar"><file name="toolbar.phtml" hash="f62ff114be87cda12debf90c6196005e"/></dir></dir></dir></dir></dir></target><target name="mageskin"><dir name="frontend"><dir name="base"><dir name="default"><dir name="images"><file name="main-bg.png" hash="615e539beac7fc4ad7b6aa7e519ca2ee"/></dir></dir></dir></dir></target></contents>
+    <date>2014-02-04</date>
+    <time>08:52:09</time>
+    <contents><target name="mageetc"><dir name="modules"><file name="Biztech_Customtoolbar.xml" hash="6cd053117e062b8334759941b84c7806"/></dir></target><target name="magelocal"><dir name="Biztech"><dir name="Customtoolbar"><dir name="Block"><dir name="Catalog"><dir name="Product"><dir name="Attribute"><dir name="Edit"><dir name="Tab"><file name="Main.php" hash="46b5eac785f0f40e551b8a43eb71f4ed"/></dir></dir></dir></dir></dir></dir><dir name="Helper"><file name="Data.php" hash="82893973976fdab398b0d061e8426390"/></dir><dir name="controllers"><file name="IndexController.php" hash="19b0c174b4ee577fa83122e20da6ac79"/></dir><dir name="etc"><file name="config.xml" hash="2f77c9bdf7b94abb8d55b0870fa2c288"/><file name="system.xml" hash="3ccc36394334e30115890a5edffba211"/></dir><dir name="sql"><dir name="customtoolbar_setup"><file name="mysql4-install-0.1.0.php" hash="127973676228a67a8600437da0d08866"/></dir></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="default"><dir name="default"><dir name="layout"><file name="customtoolbar.xml" hash="33b5081676020676c9e374f54a6da200"/></dir><dir name="template"><dir name="customtoolbar"><file name="toolbar.phtml" hash="624ead685df5857d7fd813a1cf09382e"/></dir></dir></dir></dir></dir></target><target name="mageskin"><dir name="frontend"><dir name="base"><dir name="default"><dir name="images"><file name="main-bg.png" hash="615e539beac7fc4ad7b6aa7e519ca2ee"/></dir></dir></dir></dir></target></contents>
     <compatible/>
     <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
 </package>
