@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<package>
+    <name>customtoolbar_module</name>
+    <version>0.1.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">OSL v3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Custom toolbar allows the users to filter the products based on the attributes of products. </summary>
+    <description>Custom toolbar allows the users to filter the products based on the attributes of products. This is very convenient tool both for the purchaser and the customers.&#xD;
+ Online store owners who deal with huge bulk of products, can drive the maximum out of this extension. They can easily organize their products so that their clients don&#x2019;t face any difficulty in finding the specific products with specific quality.&#xD;
+You can filter your products based on any attribute as per your choice. For instance you can provide elements such as color, size, manufacturer, category etc to filter the products. When customers select any of these attributes, another drop down box appears to allow them to finish their selection. For e.g. if a client wants to filter some product based on color, then when he/she choose color from the filter drop down box, another drop down box appears from where they can select any color of their choice.&#xD;
+Advantages&#xD;
+&#x2022;	This Magento module allows you to provide layered navigation for your products for the ease of visitors. This layered navigation facility saves lot of time of customer&#x2019;s required in shopping. Thus they become returning customers and the sale improves automatically.&#xD;
+&#x2022;	Instead of going deep down the navigation system to find the availability of some product fulfilling certain requirement, this extension helps viewers to filter products right from the beginning. This toolbar is present on category list page for the convenience of the clients.&#xD;
+&#x2022;	The custom Toolbar module allows your customers to get quick access to regularly used product with specific characteristics.&#xD;
+&#x2022;	The extension consists of friendly user interface making it easier to use. It can be installed quickly and with ease. &#xD;
+</description>
+    <notes>-New Release</notes>
+    <authors><author><name>Biztech</name><user>biztechcon</user><email>sales@biztechconsultancy.com</email></author></authors>
+    <date>2013-07-01</date>
+    <time>12:17:04</time>
+    <contents><target name="mageetc"><dir name="modules"><file name="Biztech_Customtoolbar.xml" hash="6cd053117e062b8334759941b84c7806"/></dir></target><target name="magelocal"><dir name="Biztech"><dir name="Customtoolbar"><dir name="Block"><dir name="Catalog"><dir name="Product"><dir name="Attribute"><dir name="Edit"><dir name="Tab"><file name="Main.php" hash="46b5eac785f0f40e551b8a43eb71f4ed"/></dir></dir></dir></dir></dir></dir><dir name="Helper"><file name="Data.php" hash="82893973976fdab398b0d061e8426390"/></dir><dir name="controllers"><file name="IndexController.php" hash="19b0c174b4ee577fa83122e20da6ac79"/></dir><dir name="etc"><file name="config.xml" hash="86e9f7045261bacd5c6f4a2cf80ada9a"/><file name="system.xml" hash="3ccc36394334e30115890a5edffba211"/></dir><dir name="sql"><dir name="customtoolbar_setup"><file name="mysql4-install-0.1.0.php" hash="127973676228a67a8600437da0d08866"/></dir></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="default"><dir name="default"><dir name="layout"><file name="customtoolbar.xml" hash="33b5081676020676c9e374f54a6da200"/></dir><dir name="template"><dir name="customtoolbar"><file name="toolbar.phtml" hash="f62ff114be87cda12debf90c6196005e"/></dir></dir></dir></dir></dir></target><target name="mageskin"><dir name="frontend"><dir name="base"><dir name="default"><dir name="images"><file name="main-bg.png" hash="615e539beac7fc4ad7b6aa7e519ca2ee"/></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
