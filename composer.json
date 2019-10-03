@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/customtoolbar_module",
+    "name": "OpenMageModuleFostering\/customtoolbar_module",
     "type": "magento-module",
     "license": "OSL-v3.0",
     "homepage": "",
     "description": "Custom toolbar allows the users to filter the products based on the attributes of products.",
     "authors": [
-    {
-        "name": "Biztech",
-        "email": "sales@biztechconsultancy.com"
-    }
-],
+        {
+            "name": "Biztech",
+            "email": "sales@biztechconsultancy.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
